@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    text-align: center;
+    font-family: "Neucha", cursive;
+}
+
+h1 {
+    letter-spacing: 0.1em;
+    font-size: 42pt;
+    color: #5171ff;
+}
+
+h2 {
+    letter-spacing: 0.1em;
+    font-size: 26pt;
+    color: #5171ff;
+}
+
+h3 {
+    letter-spacing: 0.1em;
+    font-size: 22pt;
+    color: #5171ff;
+}
+
+p {
+    letter-spacing: 0.1em;
+    line-height: 2;
+    color: #424645;
+}
+
+hr {
+    border-style: none;
+    border-top-width: 6px;
+    border-top-style: dotted;
+    border-top-color: #a7c5eb;
+    width: 5%;
+    margin: 2em auto;
+}
+
+/* Primer contenedor */
+
+.top-container {
+    background: #393e46;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 15em;
+    top: 10em;
+    max-width: 15%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 15em;
+    bottom: 10em;
+    max-width: 15%;
+}
+
+.profession {
+    color: white;
+    font-size: 18pt;
+}
+
+.dev {
+    text-decoration: underline;
+    color: #8ba0ff;
+    font-weight: bold;
+}
+
+/* Segundo Contenedor */
+
+.middle-container {
+    background-color: #eeeeee;
+    padding-top: 2em;
+}
+
+.profile {
+    width: 50%;
+    margin: 1em auto 0 auto;
+}
+
+.profile-img {
+    max-height: 30%;
+    max-width: 30%;
+    margin-bottom: 0.5em;
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+    font-size: 16pt;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 2em auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.skill-img {
+    max-width: 10em;
+    max-height: 10em;
+}
+
+.code-img {
+    float: right;
+    margin-left: 1em;
+}
+
+.solution-img {
+    float: left;
+    margin-right: 1em;
+}
+
+.skill-text {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.contact-me {
+    padding: 0 0 2em 0;
+}
+
+.contact-message {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.contact-button {
+    background: #5171ff;
+    color: #eeeeee;
+    padding: 0.6em 0.8em;
+    border-radius: 0.2em;
+    box-shadow: 0.2em 0.2em #393e46;
+    transition: all 300ms;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 14pt;
+}
+
+.contact-button:hover {
+    background: #1fadff;
+}
+
+/* Tercer Contenedor */
+.bottom-container {
+    background: #393e46;
+    padding: 3em 0;
+    color: #eeeeee;
+}
+
+.footer-link {
+    color: inherit;
+    font-size: 16pt;
+    margin: 0 1em;
+    transition: all 300ms;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #1fadff;
+    font-size: 16pt;
+}
+
+.copyright {
+    color: inherit;
+    margin-top: 0.5em;
+}
