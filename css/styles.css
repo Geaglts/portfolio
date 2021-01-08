@@ -275,6 +275,7 @@ hr {
 /* Cuando el size de la pantalla sea menor a 650 haz */
 @media (max-width: 650px) {
     .project {
-        width: 80%;
+        width: 85%;
+        margin: 2em auto;
     }
 }
