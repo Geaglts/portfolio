@@ -142,6 +142,73 @@ hr {
     font-weight: bold;
 }
 
+/* Poyectos */
+.project {
+    width: 20%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    border: 1px solid #5171ff;
+    border-radius: 0.3em;
+}
+
+.project_img {
+    max-width: 50%;
+}
+
+.project_title {
+    font-size: 22pt;
+    margin-top: 0.4em;
+    color: #5171ff;
+}
+
+.project_desc {
+    width: 90%;
+    color: #5171ff;
+    font-size: 16pt;
+    line-height: 1.2;
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+.project_links {
+    list-style: none;
+    background: #5171ff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3em;
+}
+
+.project_links_item {
+    color: white;
+    text-decoration: none;
+    font-size: 14pt;
+    letter-spacing: 0.2em;
+    transition: all 400ms;
+    margin: 3px 0;
+}
+
+.project_links_item a {
+    color: white;
+    text-decoration: none;
+    font-size: 14pt;
+    letter-spacing: 0.2em;
+    transition: all 400ms;
+    font-weight: bold;
+    transition: all 300ms;
+}
+
+.project_links_item a:hover {
+    color: #67ff9a;
+}
+
 .contact-me {
     padding: 0 0 2em 0;
 }
