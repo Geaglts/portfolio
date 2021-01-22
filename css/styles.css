@@ -179,21 +179,22 @@ hr {
 .project_desc {
     width: 90%;
     color: #5171ff;
-    font-size: 12pt;
+    font-size: 14pt;
     line-height: 1.5;
     margin: 0.5em 0;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 0;
 }
 
+.project_technologies {
+    font-size: 11pt;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1em;
+}
+
 .project_links {
     list-style: none;
-    background: #5171ff;
-    width: 100%;
-    padding: 0.5em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 0.5em 2em;
     align-items: center;
     border-radius: 0.3em;
 }
@@ -203,21 +204,21 @@ hr {
     text-decoration: none;
     letter-spacing: 0.2em;
     transition: all 400ms;
-    margin: 3px 0;
+    margin: 0.4em 0;
 }
 
 .project_links_item a {
-    color: white;
+    color: #5171ff;
     text-decoration: none;
     transition: all 300ms;
     font-family: "Montserrat", sans-serif;
-    font-size: 12pt;
+    font-size: 14pt;
     font-weight: 500;
     letter-spacing: 0;
 }
 
 .project_links_item a:hover {
-    color: #67ff9a;
+    color: #1641ff;
 }
 
 .contact-me {
@@ -298,7 +299,12 @@ hr {
     }
 
     .project {
-        width: 85%;
+        width: 80%;
         margin: 2em auto;
+    }
+
+    .contact-me {
+        padding: 0 0 2em 0;
+        margin: 0 2em;
     }
 }
