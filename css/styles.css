@@ -147,12 +147,13 @@ hr {
 .projects {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .project {
     width: 30%;
-    height: 350px;
+    height: 550px;
     padding: 1em;
     display: flex;
     flex-direction: column;
@@ -274,6 +275,17 @@ hr {
     margin-top: 0.5em;
 }
 
+/* Cuando el size de la pantalla sea menor a 940 haz */
+@media (max-width: 940px) {
+    .projects {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 90%;
+    }
+}
+
 /* Cuando el size de la pantalla sea menor a 650 haz */
 @media (max-width: 650px) {
     .top-cloud {
@@ -304,7 +316,7 @@ hr {
     }
 
     .contact-me {
-        padding: 0 0 2em 0;
+        padding: 0 0 3em 0;
         margin: 0 2em;
     }
 }
