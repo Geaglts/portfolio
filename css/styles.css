@@ -152,6 +152,7 @@ hr {
 
 .project {
     width: 30%;
+    height: 350px;
     padding: 1em;
     display: flex;
     flex-direction: column;
